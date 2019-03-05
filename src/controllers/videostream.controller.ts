@@ -1,6 +1,5 @@
-import { Controller, Get, HttpService, Req, Res, Render } from '@nestjs/common';
+import { Controller, Get, HttpService, Render, Req, Res } from '@nestjs/common';
 import * as fs from 'fs';
-import * as path from 'path';
 
 @Controller('videostream')
 export class VideostreamController {
